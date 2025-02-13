@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+.editing {
+    outline: none;
+    border: none;
+}

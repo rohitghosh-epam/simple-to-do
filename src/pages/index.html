@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/output.css">
+</head>
+<body class="w-full h-auto flex flex-col justify-around bg-gray-100">
+
+    <header class="p-10 w-full flex justify-center align-center">
+        <p class="text-4xl">Welcome to the To-Do  App</p>
+    </header>
+
+    <main class="m-10 flex flex-col place-content-center place-items-center">
+        <div class="flex flex-row flex-wrap gap-10 add">
+            <input class="border-b px-2 outline-none" type="text" name="" id="text" placeholder="Enter the Task">
+            <button onclick="action()" class="text-white px-10 py-2 rounded bg-blue-500 hover:pointer">Add a New Task</button>
+        </div>
+
+        <div class="container mt-10 flex flex-col justify-around space-y-5">
+            <p class="w-full flex place-content-start text-xl underline underline-offset-5 ">Task List:</p>
+        </div>
+    </main>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
